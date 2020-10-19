@@ -1,4 +1,4 @@
 # Keylogger
 Simple keylogger made in visual studios for educational purposes.
-(Unable to print mouse clicks, will fix later)
-(Unable to print return keystrokes)
+To function, hacker must send this program to their target through email or any other means as long as they can download it.
+Keylogging will appear on a notepad.
